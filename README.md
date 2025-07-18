@@ -1,11 +1,8 @@
 # CXB3RF1LTHL4BZ Virtual Machine Lab Installer
 
-Two high-performance, fully automated scripts to set up a complete virtualization environment for:
+This project provides two streamlined installation scripts to quickly configure a full virtualization lab on either Debian/Ubuntu or Arch-based systems. Ideal for researchers, cybersecurity professionals, and lab builders, these scripts automate setup of VirtualBox, QEMU/KVM, libvirt, and related tools with minimal friction.
 
-* Debian/Ubuntu-based systems
-* Arch Linux / Hyprland setups
-
-Built for red teams, malware labs, offensive security labs, and virtual lab enthusiasts who don't have time for broken configs or missing dependencies.
+Whether you're testing malware, building isolated environments, or deploying VMs for training and research, these scripts save time and eliminate common setup issues.
 
 ---
 
@@ -16,7 +13,7 @@ Built for red teams, malware labs, offensive security labs, and virtual lab enth
 * Configures default NAT network
 * Handles user group permissions
 * Fixes known conflicts (e.g., iptables on Arch)
-  
+* Zero fluff. No bloat. Just works.
 
 ---
 
@@ -83,7 +80,8 @@ Then launch virt-manager or virtualbox and start building your lab.
 ### Debian Script
 
 <details>
-<summary>Click to expand</summary>
+<summary>$1</summary>
+<br>
 
 ```bash
 #!/bin/bash
@@ -133,7 +131,8 @@ main "$@"
 ### Arch Script
 
 <details>
-<summary>Click to expand</summary>
+<summary>$1</summary>
+<br>
 
 ```bash
 #!/bin/bash
@@ -194,7 +193,7 @@ main "$@"
 
 ## Credits
 
-Crafted by Cxb3rf1lthl4bz 
+Crafted by Cxb3rf1lthl4bz for CXB3RF1LTHL4BZ-bLACKcELL
 
 Tested on:
 
@@ -215,4 +214,3 @@ VM-friendly with QEMU and VirtualBox.
 ---
 
 Keep it virtual. Keep it legal. Keep it sharp.
-
