@@ -2,8 +2,6 @@
 
 This project provides two streamlined installation scripts to quickly configure a full virtualization lab on either Debian/Ubuntu or Arch-based systems. Ideal for researchers, cybersecurity professionals, and lab builders, these scripts automate setup of VirtualBox, QEMU/KVM, libvirt, and related tools with minimal friction.
 
-Whether you're testing malware, building isolated environments, or deploying VMs for training and research, these scripts save time and eliminate common setup issues.
-
 ---
 
 ## Features
